@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top-bar .close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.top-bar h2 {
+  text-align: center;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e2a36;
+  margin-right: 24px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #2e3b43;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.signup-btn {
+  width: 100%;
+  background-color: #2f768d;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #1e2a36;
+}
+
+footer a {
+  color: #1e2a36;
+  text-decoration: none;
+}

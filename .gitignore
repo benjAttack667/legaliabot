@@ -1,0 +1,7 @@
+.env
+build/
+legalhelp/base de donne importantt!!/
+storage/chat_history/*.json
+storage/contact/*.log
+storage/rate_limits/*.json
+tests/robot/results/
