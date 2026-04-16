@@ -82,13 +82,13 @@ function app_config()
 
     $config = [
         'firebase' => [
-            'apiKey' => app_env('FIREBASE_API_KEY', 'AIzaSyDo2UxQs_Jynz8gAMEhzcmdzwP2F6V5uCc'),
-            'authDomain' => app_env('FIREBASE_AUTH_DOMAIN', 'auth-firebase-2f5c8.firebaseapp.com'),
-            'projectId' => app_env('FIREBASE_PROJECT_ID', 'auth-firebase-2f5c8'),
-            'storageBucket' => app_env('FIREBASE_STORAGE_BUCKET', 'auth-firebase-2f5c8.appspot.com'),
-            'messagingSenderId' => app_env('FIREBASE_MESSAGING_SENDER_ID', '38532235265'),
-            'appId' => app_env('FIREBASE_APP_ID', '1:38532235265:web:ca304c65fd2da6aa27c000'),
-            'measurementId' => app_env('FIREBASE_MEASUREMENT_ID', 'G-VGK4ET6R0C'),
+            'apiKey' => app_env('FIREBASE_API_KEY', ''),
+            'authDomain' => app_env('FIREBASE_AUTH_DOMAIN', ''),
+            'projectId' => app_env('FIREBASE_PROJECT_ID', ''),
+            'storageBucket' => app_env('FIREBASE_STORAGE_BUCKET', ''),
+            'messagingSenderId' => app_env('FIREBASE_MESSAGING_SENDER_ID', ''),
+            'appId' => app_env('FIREBASE_APP_ID', ''),
+            'measurementId' => app_env('FIREBASE_MEASUREMENT_ID', ''),
         ],
         'openai' => [
             'apiKey' => app_env('OPENAI_API_KEY'),
